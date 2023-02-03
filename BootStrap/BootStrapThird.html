@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Grid System In Bootstrap</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-sm-4 col-md-6 col-lg-12 bg-info border-2">Hello</div>
+      <div class="col-sm-4 col-md-6 col-lg-12 bg-dark text-white border-2">
+        Rahul
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-12 bg-warning border-2">Joshi</div>
+    </div>
+
+    <div class="row g-1">
+      <div class="col-sm-3 col-md-4 col-lg-6 col-xl-12 bg-dark text-white">
+        Rahul Joshi
+      </div>
+      <div class="col-sm-3 col-md-4 col-lg-6 col-xl-12 bg-dark text-white">
+        Ratan Tata
+      </div>
+      <div class="col-sm-3 col-md-4 col-lg-6 col-xl-12 bg-dark text-white">
+        Virat Kohli
+      </div>
+      <div class="col-sm-3 col-md-4 col-lg-6 col-xl-12 bg-dark text-white">
+        Ronaldo
+      </div>
+    </div>
+
+    <div class="container-fluid text-center p-1 my-4 g-2">
+      <div class="row">
+        <div class="col-sm-3 col-md-6 bg-primary">
+          <p>Rahul Devendra Kumar Joshi</p>
+        </div>
+        <div class="col-sm-3 col-md-6 bg-warning">
+          <p>Ratan Naval Tata</p>
+        </div>
+        <div class="col-sm-3 col-md-6 bg-dark text-white">
+          <p>Abhishek Kishor Joshi</p>
+        </div>
+        <div class="col-sm-3 col-md-6 bg-white text-dark">
+          <p>Rishab Arvind Joshi</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Auto Layout Columns-->
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-sm bg-info">1 of 2</div>
+        <div class="col-sm bg-primary">2 of 2</div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-sm bg-warning">1 of 4</div>
+        <div class="col-sm bg-secondary">2 of 4</div>
+        <div class="col-sm bg-danger">3 of 4</div>
+        <div class="col-sm bg-dark text-white">4 of 4</div>
+      </div>
+    </div>
+
+    <!--Extra Small Col-*-->
+    <div class="container-fluid my-4 p-4">
+      <div class="row">
+        <div class="col-12 col-sm-7 col-md-6 col-lg-8 col-xl-12 bg-info">
+          1 of 6
+        </div>
+        <div class="col-12 col-sm-5 col-md-6 col-lg-4 col-xl-12 bg-secondary">
+          2 of 6
+        </div>
+        <div class="col-4 col-sm-6 col-md-7 col-lg-8 col-xl-12 bg-warning">
+          3 of 6
+        </div>
+        <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-12 bg-secondary">
+          4 of 6
+        </div>
+        <div class="col-6 col-sm-6 col-md-8 col-lg-4 col-xl-12 bg-success">
+          5 of 6
+        </div>
+        <div
+          class="col-12 col-sm-4 col-md-4 col-lg-8 col-xl-12 bg-dark text-white"
+        >
+          6 of 6
+        </div>
+      </div>
+    </div>
+
+    <!--Grid BootStrap Exmaples -->
+    <!--Grid example1 Three Equal Columns-->
+    <div class="container-fluid my-4">
+      <div class="row gx-1">
+        <div class="col bg-dark text-white">First</div>
+        <div class="col bg-dark text-warning">Second</div>
+        <div class="col bg-dark text-bg-danger">Three</div>
+      </div>
+    </div>
+
+    <!--Three equal With Col Number-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 bg-dark text-white">First</div>
+        <div class="col-md-4 bg-dark text-white">Second</div>
+        <div class="col-md-4 bg-dark text-white">Third</div>
+      </div>
+    </div>
+
+    <!--Three unequal Number-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 bg-danger">First</div>
+        <div class="col-md-5 bg-danger">Second</div>
+        <div class="col-md-4 bg-danger">Third</div>
+      </div>
+    </div>
+
+    <!--One Column Width-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-info">First</div>
+        <div class="col-md-6 bg-info">Second</div>
+        <div class="col bg-info">Third</div>
+      </div>
+    </div>
+
+    <!--Row Cols-->
+    <div class="row row-cols-6">
+      <div class="col bg-warning">1 of 2</div>
+      <div class="col bg-danger">2 of 2</div>
+    </div>
+
+    <div class="row row-cols-3">
+      <div class="col bg-info">1 of 3</div>
+      <div class="col bg-dark text-danger">2 of 3</div>
+      <div class="col bg-white text-dark">3 of 3</div>
+    </div>
+
+    <div class="row row-cols-6">
+      <div class="col bg-warning">1 of 6</div>
+      <div class="col bg-danger">2 of 6</div>
+      <div class="col bg-primary">3 of 6</div>
+      <div class="col bg-info">4 of 6</div>
+      <div class="col bg-success">5 of 6</div>
+      <div class="col bg-dark text-white">6 of 6</div>
+    </div>
+
+    <!--Equal Height-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col bg-info text-dark">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Perferendis, nesciunt voluptatibus asperiores officiis pariatur eius
+            impedit praesentium quaerat doloremque neque modi facilis molestias
+            quos velit fuga deserunt quas officia, voluptatem est culpa aperiam
+            omnis temporibus.
+          </p>
+        </div>
+        <div class="col-md-6 col bg-danger text-black">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            mollitia suscipit similique autem aliquam ratione velit, voluptas
+            eaque? Quos officiis, rem esse quis accusamus consequuntur quam odit
+            amet autem ab praesentium doloremque facilis enim debitis.
+          </p>
+        </div>
+        <div class="col-md-6 col bg-light text-danger">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+            sapiente earum porro possimus cum, sint maiores unde natus
+            voluptatibus repellat nobis fugit sequi, incidunt animi!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Nested Columns-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8 bg-warning">
+          <div class="col bg-black text-warning">GJ</div>
+          <div class="col bg-info">Rj</div>
+        </div>
+        <div class="col-4 bg-danger">hello</div>
+      </div>
+    </div>
+
+    <!--Mix and Match-->
+    <div class="container-fluid my-4 p-4">
+      <div class="row">
+        <div class="col-6 col-sm-9 bg-warning">Rahul Joshi</div>
+        <div class="col-6 col-sm-3 bg-danger">Devendra Kumar Joshi</div>
+
+        <div class="col-7 col-lg-8 bg-warning">Rahul Joshi</div>
+        <div class="col-5 col-lg-4 bg-danger">Devendra Kumar Joshi</div>
+        <div class="col-sm-3 col-md-6 col-lg-4 bg-warning">Rahul Joshi</div>
+        <div class="col-sm-9 col-md-6 col-lg-8 bg-danger">
+          Devendra Kumar Joshi
+        </div>
+      </div>
+    </div>
+
+    <!--No Gutter-->
+    <div class="container-fluid gy-2    ">
+      <div class="row ">
+        <div class="col-4 bg-danger">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+          possimus ducimus nesciunt enim sequi aliquid aperiam ut quam laborum,
+          quo animi provident facilis voluptatibus ex?
+        </div>
+        <div class="col-8 bg-warning">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          iste aut obcaecati perspiciatis tempora facilis doloremque
+          accusantium, iusto cum ipsum libero explicabo, eveniet illo illum!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
